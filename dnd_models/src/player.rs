@@ -51,7 +51,7 @@ impl Player {
     pub fn level(mut self, level: u32) -> Self {
         self.level = Some(level);
 
-        self.clone()
+        self
     }
 
     pub fn hit_points(mut self, hit_points: u32) -> Self {

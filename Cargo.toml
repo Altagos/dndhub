@@ -1,4 +1,5 @@
 [workspace]
 members = [
-   "dndengine"
+   "dndengine",
+   "dnd_models"
 ]
